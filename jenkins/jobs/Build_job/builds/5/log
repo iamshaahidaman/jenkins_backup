@@ -1,0 +1,33 @@
+Started by GitHub push by iamshaahidaman
+Running as SYSTEM
+Building remotely on [8mha:////4Pm6ZT6xsk071Sq6JNjHrCOXJ3zbSMrs9lQhUIb6LuplAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (label1) in workspace /home/ubuntu/jenkins/workspace/Build_job
+using credential 19d78973-d5de-4e7e-a1fe-2c6c3dd6784f
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/iamshaahidaman/C-file.git # timeout=10
+Fetching upstream changes from https://github.com/iamshaahidaman/C-file.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://github.com/iamshaahidaman/C-file.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 565c14838499494dcfa46ca4518d5f032b5efcdb (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 565c14838499494dcfa46ca4518d5f032b5efcdb # timeout=10
+Commit message: "deleting file"
+ > git rev-list --no-walk e3500e3a3e495cd60f47147983524679694f8081 # timeout=10
+[Build_job] $ /bin/sh -xe /tmp/jenkins498838414357222074.sh
++ cd /home/ubuntu/jenkins2
++ git pull
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details.
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=<remote>/<branch> master
+
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

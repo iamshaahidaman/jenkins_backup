@@ -1,0 +1,23 @@
+Started by GitHub push by iamshaahidaman
+Running as SYSTEM
+Building remotely on [8mha:////4Pm6ZT6xsk071Sq6JNjHrCOXJ3zbSMrs9lQhUIb6LuplAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (label1) in workspace /home/ubuntu/jenkins/workspace/JAVA_build
+using credential 19d78973-d5de-4e7e-a1fe-2c6c3dd6784f
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/iamshaahidaman/java.git # timeout=10
+Fetching upstream changes from https://github.com/iamshaahidaman/java.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://github.com/iamshaahidaman/java.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f94f402890d4f5e82fcd63fdfce9cacb1c417037 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f94f402890d4f5e82fcd63fdfce9cacb1c417037 # timeout=10
+Commit message: "adding b files"
+ > git rev-list --no-walk 04b2fb84848cf3dbb52b5cb4ed3286d81bee3759 # timeout=10
+[JAVA_build] $ /bin/sh -xe /tmp/jenkins14415415203179316929.sh
++ cd /home/ubuntu/jenkins2
+/tmp/jenkins14415415203179316929.sh: 2: cd: can't cd to /home/ubuntu/jenkins2
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

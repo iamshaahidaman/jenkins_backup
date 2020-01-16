@@ -1,0 +1,27 @@
+Started by GitHub push by iamshaahidaman
+Running as SYSTEM
+Building remotely on [8mha:////4Pm6ZT6xsk071Sq6JNjHrCOXJ3zbSMrs9lQhUIb6LuplAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (label1) in workspace /home/ubuntu/jenkins/workspace/JAVA_build
+using credential 19d78973-d5de-4e7e-a1fe-2c6c3dd6784f
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/iamshaahidaman/java.git # timeout=10
+Fetching upstream changes from https://github.com/iamshaahidaman/java.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://github.com/iamshaahidaman/java.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f5f7833664633b2c4b37a2c4682483be71a14b7d (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f5f7833664633b2c4b37a2c4682483be71a14b7d # timeout=10
+Commit message: "adding java files"
+First time build. Skipping changelog.
+[JAVA_build] $ /bin/sh -xe /tmp/jenkins12005007681365037374.sh
++ cd /home/ubuntu/jenkins2
++ git pull https://github.com/iamshaahidaman/java.git
+warning: no common commits
+From https://github.com/iamshaahidaman/java
+ * branch            HEAD       -> FETCH_HEAD
+fatal: refusing to merge unrelated histories
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

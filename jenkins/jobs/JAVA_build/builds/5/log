@@ -1,0 +1,87 @@
+Started by user [8mha:////4A12t5NPoPMCU/gUSzIgN9OO2XJKHLIECX3B5WpI6UBOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZu/dLi1CL9xJTczDwAmdyTSsAAAAA=[0mMD SHAAHID AMAN
+Running as SYSTEM
+Building remotely on [8mha:////4Pm6ZT6xsk071Sq6JNjHrCOXJ3zbSMrs9lQhUIb6LuplAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (label1) in workspace /home/ubuntu/jenkins/workspace/JAVA_build
+using credential 19d78973-d5de-4e7e-a1fe-2c6c3dd6784f
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/iamshaahidaman/java.git # timeout=10
+Fetching upstream changes from https://github.com/iamshaahidaman/java.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://github.com/iamshaahidaman/java.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 2b48cf0656d94a0d25a728f209af55116fdb79db (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2b48cf0656d94a0d25a728f209af55116fdb79db # timeout=10
+Commit message: "adding test1"
+ > git rev-list --no-walk 2b48cf0656d94a0d25a728f209af55116fdb79db # timeout=10
+[JAVA_build] $ /bin/sh -xe /tmp/jenkins18006226343519511947.sh
++ cd /home/ubuntu/jenkins2
++ git pull https://github.com/iamshaahidaman/java.git
+From https://github.com/iamshaahidaman/java
+ * branch            HEAD       -> FETCH_HEAD
+Already up to date.
++ mvn compile
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.mycompany.app:my-app[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding my-app 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(default-resources)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/jenkins2/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  1.748 s
+[[1;34mINFO[m] Finished at: 2020-01-15T05:57:42Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
++ mvn package
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.google.inject.internal.cglib.core.$ReflectUtils$1 (file:/usr/share/maven/lib/guice.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+WARNING: Please consider reporting this to the maintainers of com.google.inject.internal.cglib.core.$ReflectUtils$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[[1;34mINFO[m] Scanning for projects...
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m----------------------< [0;36mcom.mycompany.app:my-app[0;1m >----------------------[m
+[[1;34mINFO[m] [1mBuilding my-app 1.0-SNAPSHOT[m
+[[1;34mINFO[m] [1m--------------------------------[ jar ]---------------------------------[m
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:resources[m [1m(default-resources)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/jenkins2/src/main/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:compile[m [1m(default-compile)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-resources-plugin:3.0.2:testResources[m [1m(default-testResources)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] Using 'UTF-8' encoding to copy filtered resources.
+[[1;34mINFO[m] skip non existing resourceDirectory /home/ubuntu/jenkins2/src/test/resources
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-compiler-plugin:3.8.0:testCompile[m [1m(default-testCompile)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] No sources to compile
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-surefire-plugin:2.22.1:test[m [1m(default-test)[m @ [36mmy-app[0;1m ---[m
+[[1;34mINFO[m] No tests to run.
+[[1;34mINFO[m] 
+[[1;34mINFO[m] [1m--- [0;32mmaven-jar-plugin:3.0.2:jar[m [1m(default-jar)[m @ [36mmy-app[0;1m ---[m
+[[1;33mWARNING[m] JAR will be empty - no content was marked for inclusion!
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  2.627 s
+[[1;34mINFO[m] Finished at: 2020-01-15T05:57:48Z
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+Triggering a new build of [8mha:////4MDm43D/aqD1/ce/QHhKHWf8WFbuDLTU0aIjtQRYIUkpAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JH2X1IKc/Mrc1LySeLCRAGaV3T/KAAAA[0mDeployment_java
+Finished: SUCCESS

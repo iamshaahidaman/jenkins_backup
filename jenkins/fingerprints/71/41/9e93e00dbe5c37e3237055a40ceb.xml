@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2020-01-13 16:28:13.891 UTC</timestamp>
+  <md5sum>71419e93e00dbe5c37e3237055a40ceb</md5sum>
+  <fileName>Credential id=114af1da-9cdf-4384-9b2a-3d4a7a204533 name=admin/******</fileName>
+  <usages>
+    <entry>
+      <string>Project_build1</string>
+      <ranges>1-5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

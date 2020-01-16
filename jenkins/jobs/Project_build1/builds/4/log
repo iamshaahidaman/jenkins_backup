@@ -1,0 +1,30 @@
+Started by user [8mha:////4A12t5NPoPMCU/gUSzIgN9OO2XJKHLIECX3B5WpI6UBOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZu/dLi1CL9xJTczDwAmdyTSsAAAAA=[0mMD SHAAHID AMAN
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Project_build1
+using credential 114af1da-9cdf-4384-9b2a-3d4a7a204533
+Cloning the remote Git repository
+Cloning repository https://github.com/iamshaahidaman/C-file.git
+ > git init /var/lib/jenkins/workspace/Project_build1 # timeout=10
+Fetching upstream changes from https://github.com/iamshaahidaman/C-file.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://github.com/iamshaahidaman/C-file.git +refs/heads/*:refs/remotes/iamshaahidaman@gmail.com/* # timeout=10
+ > git config remote.iamshaahidaman@gmail.com.url https://github.com/iamshaahidaman/C-file.git # timeout=10
+ > git config --add remote.iamshaahidaman@gmail.com.fetch +refs/heads/*:refs/remotes/iamshaahidaman@gmail.com/* # timeout=10
+ > git config remote.iamshaahidaman@gmail.com.url https://github.com/iamshaahidaman/C-file.git # timeout=10
+Fetching upstream changes from https://github.com/iamshaahidaman/C-file.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://github.com/iamshaahidaman/C-file.git +refs/heads/*:refs/remotes/iamshaahidaman@gmail.com/* # timeout=10
+ > git rev-parse refs/remotes/iamshaahidaman@gmail.com/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/iamshaahidaman@gmail.com/iamshaahidaman@gmail.com/master^{commit} # timeout=10
+Checking out Revision 7040f84d5e0453b60085861582133d8bfe9be70b (refs/remotes/iamshaahidaman@gmail.com/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7040f84d5e0453b60085861582133d8bfe9be70b # timeout=10
+Commit message: "Added C files"
+First time build. Skipping changelog.
+[Project_build1] $ /bin/sh -xe /tmp/jenkins4026889349892712644.sh
++ cd /var/lib/jenkins/workspace/Project_build1
++ make
+/tmp/jenkins4026889349892712644.sh: line 4: make: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

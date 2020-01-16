@@ -1,0 +1,26 @@
+Started by user [8mha:////4A12t5NPoPMCU/gUSzIgN9OO2XJKHLIECX3B5WpI6UBOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZu/dLi1CL9xJTczDwAmdyTSsAAAAA=[0mMD SHAAHID AMAN
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Project_build1
+using credential 114af1da-9cdf-4384-9b2a-3d4a7a204533
+Cloning the remote Git repository
+Cloning repository https://github.com/iamshaahidaman/devops.git
+ > git init /var/lib/jenkins/workspace/Project_build1 # timeout=10
+Fetching upstream changes from https://github.com/iamshaahidaman/devops.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://github.com/iamshaahidaman/devops.git +refs/heads/*:refs/remotes/iamshaahidaman@gmail.com/* # timeout=10
+ > git config remote.iamshaahidaman@gmail.com.url https://github.com/iamshaahidaman/devops.git # timeout=10
+ > git config --add remote.iamshaahidaman@gmail.com.fetch +refs/heads/*:refs/remotes/iamshaahidaman@gmail.com/* # timeout=10
+ > git config remote.iamshaahidaman@gmail.com.url https://github.com/iamshaahidaman/devops.git # timeout=10
+Fetching upstream changes from https://github.com/iamshaahidaman/devops.git
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://github.com/iamshaahidaman/devops.git +refs/heads/*:refs/remotes/iamshaahidaman@gmail.com/* # timeout=10
+ > git rev-parse refs/remotes/iamshaahidaman@gmail.com/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/iamshaahidaman@gmail.com/iamshaahidaman@gmail.com/master^{commit} # timeout=10
+Checking out Revision 6b379a94f4e5762f9f9503f0cf45f2b816515f23 (refs/remotes/iamshaahidaman@gmail.com/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 6b379a94f4e5762f9f9503f0cf45f2b816515f23 # timeout=10
+Commit message: "java files"
+First time build. Skipping changelog.
+[Project_build1] $ /bin/sh -xe /tmp/jenkins7785409533120802357.sh
+Finished: SUCCESS

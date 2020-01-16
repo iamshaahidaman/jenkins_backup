@@ -1,0 +1,34 @@
+Started by user [8mha:////4A12t5NPoPMCU/gUSzIgN9OO2XJKHLIECX3B5WpI6UBOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZu/dLi1CL9xJTczDwAmdyTSsAAAAA=[0mMD SHAAHID AMAN
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Project_build1
+using credential 19d78973-d5de-4e7e-a1fe-2c6c3dd6784f
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.iamshaahidaman@gmail.com.url https://github.com/iamshaahidaman/C-file.git # timeout=10
+Fetching upstream changes from https://github.com/iamshaahidaman/C-file.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://github.com/iamshaahidaman/C-file.git +refs/heads/*:refs/remotes/iamshaahidaman@gmail.com/* # timeout=10
+ > git rev-parse refs/remotes/iamshaahidaman@gmail.com/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/iamshaahidaman@gmail.com/iamshaahidaman@gmail.com/master^{commit} # timeout=10
+Checking out Revision 7040f84d5e0453b60085861582133d8bfe9be70b (refs/remotes/iamshaahidaman@gmail.com/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 7040f84d5e0453b60085861582133d8bfe9be70b # timeout=10
+Commit message: "Added C files"
+ > git rev-list --no-walk 7040f84d5e0453b60085861582133d8bfe9be70b # timeout=10
+[Project_build1] $ /bin/sh -xe /tmp/jenkins2837177387164215583.sh
++ cd /var/lib/jenkins/workspace/Project_build1
++ make
+make: 'ABC.exe' is up to date.
++ sudo scp -i /home/ec2-user/aman2/aman/Key/mytrainingkey.pem ubuntu@18.212.51.116: /home/ubuntu/GIT/crepo/copy1
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: no tty present and no askpass program specified
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE

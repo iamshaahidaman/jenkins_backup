@@ -1,0 +1,28 @@
+Started by upstream project "[8mha:////4ALSrYVByF9UunUzLQ9X4M1Md3fG9sURnqEYjJl8FRNgAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyuEgYB/az8JH0vxzDH+KTSzJwUfQBWZA5pxQAAAA==[0mJAVA_build" build number [8mha:////4BjBe9OG18Us+dX2UJdZekxD9aN9by8e4V+kWGmRMtLaAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAwmoBn6WflJ+l6OYY7xSaWZOSn6hkYAoVKaJMcAAAA=[0m12
+originally caused by:
+ Started by user [8mha:////4A12t5NPoPMCU/gUSzIgN9OO2XJKHLIECX3B5WpI6UBOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZu/dLi1CL9xJTczDwAmdyTSsAAAAA=[0mMD SHAAHID AMAN
+Running as SYSTEM
+Building remotely on [8mha:////4Pm6ZT6xsk071Sq6JNjHrCOXJ3zbSMrs9lQhUIb6LuplAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (label1) in workspace /home/ubuntu/jenkins2/workspace/Deployment_java
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/iamshaahidaman/java.git
+ > git init /home/ubuntu/jenkins2/workspace/Deployment_java # timeout=10
+Fetching upstream changes from https://github.com/iamshaahidaman/java.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/iamshaahidaman/java.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/iamshaahidaman/java.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/iamshaahidaman/java.git # timeout=10
+Fetching upstream changes from https://github.com/iamshaahidaman/java.git
+ > git fetch --tags --progress -- https://github.com/iamshaahidaman/java.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 8c359c3e6ebab0bdef298e4c78c3d46ced534d02 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 8c359c3e6ebab0bdef298e4c78c3d46ced534d02 # timeout=10
+Commit message: "adding b files"
+ > git rev-list --no-walk 8c359c3e6ebab0bdef298e4c78c3d46ced534d02 # timeout=10
+[Deployment_java] $ /bin/sh -xe /tmp/jenkins4999470900036655823.sh
++ cd /home/ubuntu/jenkins2/target
++ scp my-app-1.0-SNAPSHOT.jar ec2-user@54.210.193.178:/home/ec2-user/apache-tomcat-9.0.30/webapps/
+Finished: SUCCESS

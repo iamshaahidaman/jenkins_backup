@@ -1,0 +1,12 @@
+Started on Jan 14, 2020 6:47:52 PM
+Started by event from 140.82.115.245 ⇒ http://52.55.145.105:8080/github-webhook/ on Tue Jan 14 18:47:52 UTC 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision 3636989741f230436a095647768ec1a2e7db1c33 (refs/remotes/origin/master)
+using credential 19d78973-d5de-4e7e-a1fe-2c6c3dd6784f
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -- https://github.com/iamshaahidaman/C-file.git # timeout=10
+Found 1 remote heads on https://github.com/iamshaahidaman/C-file.git
+[poll] Latest remote head revision on refs/heads/master is: 9b0757068bdd45a95d036f04be73ae08cae4faca
+Done. Took 0.1 sec
+Changes found

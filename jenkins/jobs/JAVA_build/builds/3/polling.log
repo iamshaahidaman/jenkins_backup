@@ -1,0 +1,12 @@
+Started on Jan 14, 2020 7:48:48 PM
+Started by event from 192.30.252.96 ⇒ http://52.55.145.105:8080/github-webhook/ on Tue Jan 14 19:48:48 UTC 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision f5f7833664633b2c4b37a2c4682483be71a14b7d (refs/remotes/origin/master)
+using credential 19d78973-d5de-4e7e-a1fe-2c6c3dd6784f
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git ls-remote -h -- https://github.com/iamshaahidaman/java.git # timeout=10
+Found 1 remote heads on https://github.com/iamshaahidaman/java.git
+[poll] Latest remote head revision on refs/heads/master is: 2b48cf0656d94a0d25a728f209af55116fdb79db
+Done. Took 80 ms
+Changes found

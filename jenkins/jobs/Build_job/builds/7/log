@@ -1,0 +1,36 @@
+Started by user [8mha:////4A12t5NPoPMCU/gUSzIgN9OO2XJKHLIECX3B5WpI6UBOAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZu/dLi1CL9xJTczDwAmdyTSsAAAAA=[0mMD SHAAHID AMAN
+Running as SYSTEM
+Building remotely on [8mha:////4Pm6ZT6xsk071Sq6JNjHrCOXJ3zbSMrs9lQhUIb6LuplAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYB/eT83ILSktQi/eKcxLJUQwA49mDyxQAAAA==[0mslave1 (label1) in workspace /home/ubuntu/jenkins/workspace/Build_job
+using credential 19d78973-d5de-4e7e-a1fe-2c6c3dd6784f
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/iamshaahidaman/C-file.git # timeout=10
+Fetching upstream changes from https://github.com/iamshaahidaman/C-file.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --progress -- https://github.com/iamshaahidaman/C-file.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision b0f8193a8e96b9ccd6de7284c9a9b4f1325ac119 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f b0f8193a8e96b9ccd6de7284c9a9b4f1325ac119 # timeout=10
+Commit message: "makefile added"
+ > git rev-list --no-walk b0f8193a8e96b9ccd6de7284c9a9b4f1325ac119 # timeout=10
+[Build_job] $ /bin/sh -xe /tmp/jenkins2324260660762895125.sh
++ cd /home/ubuntu/jenkins2
++ git clone https://github.com/iamshaahidaman/C-file.git
+Cloning into 'C-file'...
++ cd C-file
++ make
+gcc -c main.c
+main.c: In function ‘main’:
+main.c:3:4: warning: implicit declaration of function ‘big3’ [-Wimplicit-function-declaration]
+    big3();
+    ^~~~
+main.c:4:4: warning: implicit declaration of function ‘fact’ [-Wimplicit-function-declaration]
+    fact();
+    ^~~~
+gcc -c big3.c
+gcc -c fact.c
+gcc -o ABC.exe main.o big3.o fact.o
+Finished: SUCCESS
